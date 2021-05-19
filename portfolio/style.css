@@ -1,0 +1,63 @@
+
+h1{
+    color:Sblack;
+    border:solid;
+    margin-bottom: 0px;
+    padding-left: 10px;
+}
+
+.header{
+    background-color: aquamarine;
+    display:flex;
+    justify-content:space-evenly;
+} 
+         
+.menu{
+    background-color: burlywood;
+    display: flex;
+    justify-content: space-around;
+}
+.games{
+    background-color: chartreuse;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.socialmedia{
+    background-color: #E9967A;
+    display: flex;
+    justify-content: flex-end;
+}
+
+h2,p{
+    text-align: center;
+}
+
+body{
+    background-color: #808080;
+}
+a:link{
+    color:aquamarine;
+}
+a:visited{
+    color:blue;
+}
+.game1{
+    position: relative;
+}
+.game1 p {
+    font-weight: bold;
+    font-size: 25px;
+    color: blue;
+    position:absolute;
+    top: 50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    opacity:0;
+}
+.game1:hover p{
+opacity:1;
+}
+.game1:hover img {
+opacity:0.456454434544;
+}
